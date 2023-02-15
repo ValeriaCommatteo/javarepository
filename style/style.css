@@ -16,6 +16,9 @@ a {
     color: white;
 } 
 
+tr {
+    border-color: black;
+}
 #aplogo {
     margin: 10px;
     width: 100px;

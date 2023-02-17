@@ -12,6 +12,14 @@
   margin-left: 750px;
 }
 
+.btn {
+  background-color: rgb(157, 96, 255);
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(168, 235, 252);
+}
 a {
   color: white;
 }

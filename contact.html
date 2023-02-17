@@ -12,19 +12,17 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
-<body>
+<body class="tabla-stats">
     <header>
         <nav class="navbar bg-dark bg-gradient">
             <div class="container-fluid">
                 <img src="./assets/LogoAmazingEvents.png" id="aplogo">
                 <form class="d-flex" role="search">
-                    <button class="btn btn-outline-danger me-2" type="button"><a href="./index.html">Home</a></button>
-                    <button class="btn btn-outline-danger me-2" type="button"><a href="./events.html">Upcoming
-                            Events</a></button>
-                    <button class="btn btn-outline-danger me-2" type="button"><a href="./details.html">Past
-                            Events</a></button>
-                    <button class="btn btn-outline-danger me-2" type="button"><a href="#">Contact</a></button>
-                    <button class="btn btn-outline-danger me-2" type="button"><a href="./stats.html">Stats</a></button>
+                    <button class="btn btn-outline-info me-2" type="button"><a href="./index.html">Home</a></button>
+                    <button class="btn btn-outline-info me-2" type="button"><a href="./events.html">Upcoming Events</a></button>
+                    <button class="btn btn-outline-info me-2" type="button"><a href="./details.html">Past Events</a></button>
+                    <button class="btn btn-outline-info me-2" type="button"><a href="#">Contact</a></button>
+                    <button class="btn btn-outline-info me-2" type="button"><a href="./stats.html">Stats</a></button>
                 </form>
             </div>
         </nav>
@@ -53,20 +51,22 @@
     <main>
         <section>
             <form class="contact">
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Name:</label>
-                    <div class="col-sm-10"><input type="text" class="form-control" id="exampleInputName"></div>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Nombre</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                  <br>
+                <div class="input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                  </div>
+                  <br>
+                <div class="input-group input-group-lg col-sm-10 mb-4">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Menssage</span>
+                    <textarea type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"></textarea>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email:</label>
-                    <div class="col-sm-10"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
-                    <div id="email" class="form-text"></div>
-                </div>
-                <div class="mb-3 form-group">
-                    <label for="menssage">Menssage:</label>
-                    <div class="col-sm-10"><textarea class="form-control" rows="5" id="menssage"></textarea></div>
-                </div>
-                <div class="mb-3">
+                <br>
+                <div class="mb-4">
                 <button type="submit" class="btn btn-dark position-relative start-50 py-2 px-6 text-bg-dark border border-dark rounded-pill">Submit</button></div>
             </form>
         </section>

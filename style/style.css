@@ -17,6 +17,8 @@
 
 .btn-slider {
   padding-top: 30px;
+  width: 60px;
+  height: 60px;
 }
 
 .btn {
@@ -31,6 +33,7 @@
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 #foto-concert {
@@ -71,6 +74,13 @@ img {
   margin-left: 11px;
 }
 
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .card-body {
   border: 1px solid lightgray;
   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
@@ -89,9 +99,9 @@ img {
   margin-left: 1080px;
 }
 
-svg {
+/* svg {
   margin-left: 35px;
-}
+} */
 
 fieldset {
   margin: 15px;
@@ -195,3 +205,14 @@ td {
 section {
   margin: 50px;
 }
+
+/* MEDIAS */ 
+
+/* @media (max-width: 1024px) {
+
+  .btn-slider{
+    width: 20px;
+    height: 20px;
+  } 
+
+}   */
